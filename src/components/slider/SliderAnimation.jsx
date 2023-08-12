@@ -1,5 +1,5 @@
-import React from "react";
-import TextLoop from "react-text-loop";
+import React, { useState, useEffect, useMemo } from "react";
+// import TextLoop from "react-text-loop";
 
 const conctInfo = {
   phone: "+90 539 106 1897",
@@ -14,6 +14,21 @@ const sliderContent = {
 };
 
 const Slider = () => {
+  const texts = useMemo(
+    () => ["Front-End Developer", " UI/UX Designer", "Web Developer"],
+    []
+  ); // Add your text options here
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentText, setCurrentText] = useState(texts[currentIndex]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
+      setCurrentText(texts[currentIndex]);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [currentIndex, texts]);
   return (
     <>
       {/*  Home Banner */}
@@ -21,11 +36,8 @@ const Slider = () => {
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+905391061897">{conctInfo.phone}</a>
-            <a href="mailto:ayowayne123@gmail.com">
-              {conctInfo.email}
-            </a>
+            <a href="mailto:ayowayne123@gmail.com">{conctInfo.email}</a>
           </div>
-         
         </div>
         {/* End hp-top-fixed */}
 
@@ -49,11 +61,12 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <TextLoop>
+                  {/* <TextLoop>
                     <p className="loop-text lead">Front-End Developer</p>
                     <p className="loop-text lead"> UI/UX Designer</p>
                     <p className="loop-text lead"> Web Developer</p>
-                  </TextLoop>
+                  </TextLoop> */}
+                  <p className="loop-text lead">{currentText} </p>
                 </div>
 
                 <p
