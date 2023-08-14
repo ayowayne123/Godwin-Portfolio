@@ -12,20 +12,19 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
+const tabList = ["All", "Web Design", "UI/UX", "Web Content"];
 const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/m-portfolio-1.jpg",
-        width: 400,
-        height: 550,
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
+        img: "/img/portfolio/pecbico.png",
+        width: 450,
+        height: 350,
+        title: "PECBICO ",
+        subTitle: "Web Design",
+        alterText: "Website Image",
         delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+        portfolioLink: "https://pecbico.vercel.app/",
       },
       {
         img: "/img/portfolio/m-portfolio-2.jpg",
@@ -119,15 +118,14 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/m-portfolio-6.jpg",
-        width: 400,
-        height: 550,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
+        img: "/img/portfolio/pecbico.png",
+        width: 450,
+        height: 350,
+        title: "PECBICO ",
+        subTitle: "Web Design",
+        alterText: "Website Image",
         delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+        portfolioLink: "https://pecbico.vercel.app/",
       },
       {
         img: "/img/portfolio/m-portfolio-3.jpg",
