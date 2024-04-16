@@ -11,9 +11,9 @@ import {
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/GodwayneAyo" },
   { Social: <FaGithub />, link: "https://github.com/ayowayne123" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/in/ayomide-wayne/" },
+  { Social: <FaTwitter />, link: "https://twitter.com/Ayomide_wayne " },
   { Social: <FaInstagram />, link: "https://www.instagram.com/ayomide_wayne" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/Ayomide_wayne" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/ayomide-wayne/" },
   // { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
 ];
 

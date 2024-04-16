@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 // import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+90 539 106 1897",
+  phone: "+90 533 876 7745",
   email: " ayowayne123@gmail.com",
 };
 
