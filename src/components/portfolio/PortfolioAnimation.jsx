@@ -56,6 +56,26 @@ const tabListContent = [
         delayAnimation: "",
         portfolioLink: "https://mightymeld-build.vercel.app/",
       },
+      {
+        img: "/img/portfolio/ciu.png",
+        width: 450,
+        height: 350,
+        title: "CIUCF Website",
+        subTitle: "Web Design",
+        alterText: "CIUCF Website Image",
+        delayAnimation: "600",
+        portfolioLink: "https://dev.ciucf.org/",
+      },
+      {
+        img: "/img/portfolio/cerrene.png",
+        width: 450,
+        height: 350,
+        title: "Cerrene Cleaning Services",
+        subTitle: "Web Design",
+        alterText: "Cerrene Cleaning Services Image",
+        delayAnimation: "800",
+        portfolioLink: "https://cerrene.org/",
+      },
      
     ],
   },
@@ -101,6 +121,26 @@ const tabListContent = [
         delayAnimation: "",
         portfolioLink: "https://mightymeld-build.vercel.app/",
       },
+      {
+        img: "/img/portfolio/ciu.png",
+        width: 450,
+        height: 350,
+        title: "CIUCF Website",
+        subTitle: "Web Design",
+        alterText: "CIUCF Website Image",
+        delayAnimation: "600",
+        portfolioLink: "https://dev.ciucf.org/",
+      },
+      {
+        img: "/img/portfolio/cerrene.png",
+        width: 450,
+        height: 350,
+        title: "Cerrene Cleaning Services",
+        subTitle: "Web Design",
+        alterText: "Cerrene Cleaning Services Image",
+        delayAnimation: "800",
+        portfolioLink: "https://cerrene.org/",
+      },
       
     ],
   },
@@ -128,91 +168,7 @@ const tabListContent = [
       },
     ],
   },
-  // {
-  //   porftoliItems: [
-  //     {
-  //       img: "/img/portfolio/m-portfolio-1.jpg",
-  //       width: 400,
-  //       height: 550,
-  //       title: "Bottle Illustration",
-  //       subTitle: "Figma Shoot",
-  //       alterText: "Bottle Illustration",
-  //       delayAnimation: "",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-  //     },
-  //     {
-  //       img: "/img/portfolio/m-portfolio-7.jpg",
-  //       width: 400,
-  //       height: 700,
-  //       title: "Business Card",
-  //       subTitle: "Graphicriver Market",
-  //       alterText: "Business Card",
-  //       delayAnimation: "100",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-  //     },
-  //     {
-  //       img: "/img/portfolio/m-portfolio-9.jpg",
-  //       width: 400,
-  //       height: 400,
-  //       title: "Web Motion",
-  //       subTitle: "Behance Shot",
-  //       alterText: "Web Motion",
-  //       delayAnimation: "200",
-  //       portfolioLink: "https://www.facebook.com/ibthemes",
-  //     },
-  //   ],
-  // },
-  // {
-  //   porftoliItems: [
-  //     {
-  //       img: "/img/portfolio/m-portfolio-2.jpg",
-  //       width: 400,
-  //       height: 400,
-  //       title: "E-Learning App",
-  //       subTitle: "Nuna ios App",
-  //       alterText: "Illustration",
-  //       delayAnimation: "",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
-  //     },
-  //     {
-  //       img: "/img/portfolio/m-portfolio-3.jpg",
-  //       width: 400,
-  //       height: 700,
-  //       title: "Visual Design",
-  //       subTitle: "Themeforest Marke",
-  //       alterText: "Business Mockup",
-  //       delayAnimation: "100",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-  //     },
-
-  //     {
-  //       img: "/img/portfolio/m-portfolio-5.jpg",
-  //       width: 400,
-  //       height: 700,
-  //       title: "Chatting Application",
-  //       subTitle: "Codecanyon Market",
-  //       alterText: "Bottle Illustration",
-  //       delayAnimation: "200",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-  //     },
-  //     {
-  //       img: "/img/portfolio/m-portfolio-6.jpg",
-  //       width: 400,
-  //       height: 550,
-  //       title: "Web Application",
-  //       subTitle: "Behance Shot",
-  //       alterText: "Web Application",
-  //       delayAnimation: "300",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-  //     },
-  //   ],
-  // },
+ 
 ];
 
 const PortfolioAnimation = () => {
