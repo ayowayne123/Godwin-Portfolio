@@ -3,10 +3,24 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
+    jobPosition: "Front-End Developer",
+    jobType: "ThinkTech.ng | Remote",
+    jobDuration: "May 2024 - Present",
+    timeDuration: "Full Time",
+    companyName: "ThinkTech.ng",
+    jobDescription: [
+      "Led the front-end team for Reckon.io, a cutting-edge measuring app designed for structural engineers, architects, and builders",
+      "Developed intuitive user interfaces using React and Next.js, ensuring seamless integration with back-end systems",
+      "Built multiple responsive websites for ThinkTech clients, adhering to best practices for design and performance",
+      "Collaborated with designers and back-end developers to deliver scalable, user-friendly applications",
+      "Utilized RESTful APIs and databases like PostgreSQL to enhance application functionality"
+    ]
+  },
+  {
     jobPosition: `UI/UX Designer and Front-End Developer`,
     jobType: `FCV | Lefkosa, Cyprus`,
     jobDuration: `Sep 2021 - Present`,
-    timeDuraton: `Full Time`,
+    timeDuraton: `Volunteer`,
     compnayName: "First Class Visuals",
     jobDescription: [
     'Developed a merch store using Next.js and WordPress Headless Api as backend',
